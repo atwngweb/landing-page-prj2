@@ -115,9 +115,9 @@ a {
 
 /* ======HERO=========== */
 .hero {
-  height: calc(100vh - 93px);
+  height: calc(100vh - 94px);
   background-color: var(--bg-color);
-  padding-top: 65px;
+  padding: 57px 0 65px;
 }
 
 .hero .hero-body {
@@ -148,7 +148,7 @@ a {
   border-radius: 12px;
   background: rgb(255, 255, 255);
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
-  padding: 28px 24px;
+  padding: 24px;
 }
 
 .hero .img-infor .item {
