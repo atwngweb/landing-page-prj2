@@ -115,9 +115,9 @@ a {
 
 /* ======HERO=========== */
 .hero {
-  height: calc(100vh + 93px);
+  height: calc(100vh - 93px);
   background-color: var(--bg-color);
-  padding: 57px 0 65px;
+  padding-top: 65px;
 }
 
 .hero .hero-body {
@@ -125,6 +125,8 @@ a {
   align-items: center;
   gap: 230px;
 }
+
+/* ======IMG HERO=========== */
 
 .hero .hero-body .img-body img {
   width: 470px;
@@ -142,11 +144,11 @@ a {
   left: 300px;
   bottom: 48px;
   width: 270px;
-  height: 244px;
+  /* height: 244px; */
   border-radius: 12px;
   background: rgb(255, 255, 255);
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
-  padding: 28px 0 0 24px;
+  padding: 28px 24px;
 }
 
 .hero .img-infor .item {
@@ -164,6 +166,14 @@ a {
   border-radius: 50%;
   background: #fff9e8;
   margin-right: 16px;
+}
+
+.hero .item:nth-child(2) .icon {
+  background-color: #fcefff;
+}
+
+.hero .item:nth-child(3) .icon {
+  background-color: #ebeaff;
 }
 
 .hero .img-infor .item .thumb {
@@ -184,6 +194,7 @@ a {
   line-height: 1.7;
 }
 
+/* =======CONTENT HERO=========== */
 .hero .content-body .title {
   color: #171100;
   font-family: Sen;
@@ -258,6 +269,7 @@ a {
   margin-left: 28px;
   margin-right: 14px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.07);
+  cursor: pointer;
 }
 
 /* ======END HERO=========== */
