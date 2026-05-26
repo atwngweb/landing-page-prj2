@@ -27,25 +27,25 @@ a {
 }
 
 .btn {
-  width: 144px;
-  height: 50px;
+  display: inline-block;
+  min-width: 118px;
   border-radius: 24.5px;
   background: #171100;
-  padding: 11px 41px;
+  padding: 0px 41px;
   color: #fff;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 1.75;
+  line-height: 50px;
 }
 
 /* =========Header============= */
 
 .header {
   background: #fffcf4;
-  padding: 13px;
+  padding: 36px 0px 8px 0px;
   position: sticky;
-  top: 0;
+  top: -28px;
   left: 0;
 }
 
@@ -103,6 +103,7 @@ a {
 }
 
 .header .nav-bar .btn {
+  min-width: 144px;
   margin-left: 70px;
 }
 
