@@ -17,7 +17,9 @@ body {
 
 .container {
   width: 1170px;
-  margin: 0 auto;
+  max-width: calc(100% - 40px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -64,13 +66,23 @@ a {
 
 .header .nav-bar .list-items {
   display: flex;
-  gap: 42px;
+}
+
+.header .nav-bar .list-items li {
+  position: relative;
+}
+
+.header .nav-bar .list-items a {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 8px 21px;
 }
 
 .header .nav-bar .list-items a::before {
-  position: relative;
-  bottom: -20px;
-  left: 0px;
+  position: absolute;
+  bottom: -2px;
+  left: 21px;
   border-radius: 999px;
   display: block;
   content: "";
@@ -81,18 +93,13 @@ a {
 }
 
 .header .nav-bar .list-items a:hover {
-  font-weight: 600;
+  /* Tăng font-weight khi hover sẽ tạo hiện tượng giật giật => text-shadow để tránh giật */
+  text-shadow: 1px 0 0 currentColor;
   color: #171100;
 }
 
 .header .nav-bar .list-items a:hover::before {
   display: block;
-}
-
-.header .nav-bar .list-items a {
-  color: #5f5b53;
-  font-size: 1.6rem;
-  font-weight: 400;
 }
 
 .header .nav-bar .btn {
