@@ -13,7 +13,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: Poppins, sans-serif;
-  height: 10000px;
 }
 
 /* ==========Common=========== */
@@ -677,3 +676,86 @@ a {
   margin-top: 38px;
 }
 /* ==================END BLOG================= */
+
+/* ============FOOTER================ */
+.footer {
+  background-color: #2e2100;
+  color: #fff;
+}
+
+.footer .body-footer {
+  display: flex;
+  align-items: center;
+  padding: 96px 0 28px;
+}
+
+.footer .info {
+  width: 267px;
+}
+.footer .info .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.9; /* 185.714% */
+  margin: 18px 0;
+}
+
+.footer .info .logo-link img {
+  margin-right: 8px;
+}
+
+.footer .about {
+  flex: 1;
+  margin-left: 145px;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footer .about .title {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+}
+
+.footer .about .title::after {
+  display: block;
+  content: "";
+  width: 130px;
+  height: 1px;
+  background: #59554b;
+  margin: 14px 0 28px;
+}
+
+.footer .about .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.9; /* 185.714% */
+}
+
+.footer .about .desc span {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.9; /* 185.714% */
+}
+
+.footer .wrap .copyright {
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.9; /* 185.714% */
+  padding-bottom: 28px;
+}
+
+.copyright::before {
+  content: "";
+  display: block;
+  width: 1170px;
+  height: 1px;
+  background: #59554b;
+  margin-bottom: 28px;
+}
+
+/* ============END FOOTER================ */
