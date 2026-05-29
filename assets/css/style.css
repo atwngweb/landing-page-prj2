@@ -392,20 +392,20 @@ a {
 }
 /* ==========END POPULAR========== */
 
-/* =========FEEDBACK============== */
-.feedback {
+/* ========= FEEDBACK-1 ============== */
+.feedback-1 {
   margin: 200px 0;
   background-color: #2e2100;
 }
 
-.feedback .body-feedback {
+.feedback-1 .body-feedback {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 96px 0;
 }
 
-.feedback .author .avatar {
+.feedback-1 .author .avatar {
   display: inline-block;
   width: 72px;
   height: 72px;
@@ -413,7 +413,7 @@ a {
   object-fit: cover;
 }
 
-.feedback .author .name {
+.feedback-1 .author .name {
   color: #f7f7f7;
   font-family: Sen;
   font-size: 2.4rem;
@@ -422,7 +422,7 @@ a {
   margin: 18px 0 4px;
 }
 
-.feedback .author .desc {
+.feedback-1 .author .desc {
   color: #bfbcb2;
   font-size: 1.4rem;
   font-weight: 400;
@@ -430,7 +430,7 @@ a {
   margin-bottom: 28px;
 }
 
-.body-feedback .content {
+.feedback-1 .body-feedback .content {
   position: relative;
   width: 740px;
   color: #fff;
@@ -439,10 +439,80 @@ a {
   line-height: 1.5;
 }
 
-.body-feedback .content img {
+.feedback-1 .body-feedback .content img {
   position: absolute;
   top: -25px;
   left: -30px;
 }
 
-/* =========END FEEDBACK============== */
+/* ========= END FEEDBACK-1 ============== */
+
+/* ===========FEEDBACK-2================= */
+
+.feedback-2 .body-feedback {
+  display: flex;
+  gap: 130px;
+  align-items: center;
+}
+
+.feedback-2 .body-feedback .thumb {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  width: 49%;
+  height: 438px;
+}
+
+.feedback-2 .body-feedback .thumb img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.feedback-2 .body-feedback .thumb img:first-child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.feedback-2 .body-feedback .thumb img:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.feedback-2 .body-feedback .info {
+  width: 40%;
+}
+.feedback-2 .body-feedback .title {
+  color: #171100;
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.76px;
+}
+
+.feedback-2 .body-feedback .desc {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  margin: 16px 0;
+}
+
+.feedback-2 .body-feedback .btn {
+  width: 137px;
+  padding: 11px 37px;
+  margin-top: 16px;
+  border-radius: 26px;
+  background: #ffb900;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+/* ===========END FEEDBACK-2================= */
+/* =========== FEEDBACK-3================ */
+
+/* =========== END FEEDBACK-3================ */
