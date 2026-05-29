@@ -115,7 +115,7 @@ a {
 
 /* ======HERO=========== */
 .hero {
-  /* height: calc(100vh + 94px); */
+  height: 100%;
   background-color: var(--bg-color);
   padding: 57px 0 65px;
   margin-bottom: 200px;
@@ -564,3 +564,116 @@ a {
 }
 
 /* =========== END FEEDBACK-3================ */
+
+/* ==================BLOG================= */
+.blog {
+  background-color: #fffcf4;
+}
+
+.blog .body-blog {
+  padding: 96px 0px;
+}
+
+.blog .body-blog .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog .body-blog .content .title {
+  color: #130606;
+  font-family: Sen;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.3; /* 126.316% */
+  letter-spacing: -0.76px;
+  margin-bottom: 16px;
+}
+.blog .body-blog .content .desc {
+  text-align: center;
+  width: 448px;
+  color: #696262;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+}
+
+.blog .list-blog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog .list-blog .item {
+  width: 370px;
+  height: 467px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+  margin-top: 55px;
+}
+
+.blog .list-blog .item .thumb {
+  width: 370px;
+  height: 250px;
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
+}
+
+.blog .item .info-item {
+  padding: 20px;
+}
+
+.blog .item .info-item .date {
+  position: relative;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.9; /* 185.714% */
+  margin-left: 10px;
+}
+
+.blog .item .info-item .date::before {
+  position: absolute;
+  left: -10px;
+  top: 6px;
+  display: block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ffb900;
+  border-radius: 50%;
+}
+.blog .item .info-item .date::after {
+  margin: 12px 0;
+  display: block;
+  content: "";
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+}
+
+.blog .item .info-item .sub-title {
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  margin-bottom: 12px;
+}
+
+.blog .item .info-item .btn {
+  width: 118px;
+  padding: 12px 21px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.9; /* 185.714% */
+}
+
+.blog .item .info-item .btn:hover {
+  background-color: #ffb900;
+}
+
+.blog .body-blog .icon {
+  text-align: center;
+  margin-top: 38px;
+}
+/* ==================END BLOG================= */
