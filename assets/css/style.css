@@ -391,3 +391,58 @@ a {
   margin: 6px 0 12px;
 }
 /* ==========END POPULAR========== */
+
+/* =========FEEDBACK============== */
+.feedback {
+  margin: 200px 0;
+  background-color: #2e2100;
+}
+
+.feedback .body-feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 96px 0;
+}
+
+.feedback .author .avatar {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback .author .name {
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 18px 0 4px;
+}
+
+.feedback .author .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.body-feedback .content {
+  position: relative;
+  width: 740px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.body-feedback .content img {
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+
+/* =========END FEEDBACK============== */
